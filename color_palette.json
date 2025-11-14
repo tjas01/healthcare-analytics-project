@@ -1,0 +1,29 @@
+{
+  "name": "ED Dashboard – Business Cycle Palette",
+  "dataColors": [
+    "#6A8BF7",
+    "#3E4A75",
+    "#AFC9FF",
+    "#8FA4C8",
+    "#5D6C9E"
+  ],
+  "background": "#E9EDF5",
+  "foreground": "#2F3145",
+  "tableAccent": "#6A8BF7",
+  "visualStyles": {
+    "*": {
+      "*": {
+        "background": [
+          { "solid": { "color": "#F7F9FC" } }
+        ],
+        "border": [
+          { "color": { "solid": { "color": "#D3D9E3" } } }
+        ],
+        "title": [
+          { "color": "#2F3145" }
+        ]
+      }
+    }
+  }
+}
+// By Tejas Vyasam
