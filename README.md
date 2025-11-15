@@ -7,6 +7,30 @@ The project converts raw ED summaries into actionable, visually consistent insig
 
 ---
 
+## 📁 Repository Contents
+
+| File | Description |
+|------|-------------|
+| `healthcare-ed-analytics-apr2024-mar2025.pbix` | Main Power BI report (Pages 1 & 2 complete) |
+| `emergency-department-visits-apr-2024-mar-2025-data-tables-en.xlsx` | Source dataset |
+| `color-palette.json` | Custom clinical theme |
+| `README.md` | Documentation |
+| `/Screenshots/` | Dashboard screenshots |
+
+---
+
+## 📸 Dashboard Screenshots
+
+### **Page 1 — ED Overview & Performance**
+![Page 1](./Screenshots/page1.png)
+
+---
+
+### **Page 2 — Top Clinical Conditions & Drivers**
+![Page 2](./Screenshots/page2.png)
+
+---
+
 ## 🧠 Skills Demonstrated  
 *(Aligned with Fraser Health Data Analyst expectations)*
 
@@ -41,32 +65,6 @@ The project converts raw ED summaries into actionable, visually consistent insig
 - Well-structured repository for recruiters and hiring managers  
 - Self-contained PBIX + theme + dataset  
 - Clear README with model view, screenshots, and explanation  
-
----
-
-## 📁 Repository Contents
-
-| File | Description |
-|------|-------------|
-| `healthcare-ed-analytics-apr2024-mar2025.pbix` | Main Power BI report (Pages 1 & 2 complete) |
-| `emergency-department-visits-apr-2024-mar-2025-data-tables-en.xlsx` | Source dataset |
-| `color-palette.json` | Custom clinical theme |
-| `README.md` | Documentation |
-| `/Screenshots/` | Dashboard screenshots |
-
----
-
-## 📸 Dashboard Screenshots
-
-### **Page 1 — ED Overview & Performance**
-
-![Page 1](./Screenshots/page1.png)
-
----
-
-### **Page 2 — Top Clinical Conditions & Drivers**
-
-![Page 2](./Screenshots/page2.png)
 
 ---
 
@@ -155,6 +153,8 @@ A clinical drill-down into the top 10 ED problems driving patient flow and throu
 
 This page highlights clinical drivers behind ED utilization, identifies conditions associated with higher admission burden, and surfaces problem-level throughput patterns.
 
+---
+
 ## 🎨 Theme & Color Palette
 
 ### Primary Accent Colors
@@ -184,3 +184,17 @@ This page highlights clinical drivers behind ED utilization, identifies conditio
 | Medium Grey Text | `#6B7180` |
 
 The palette is designed to be clean, clinical, and accessible, following IBCS clarity principles and healthcare reporting standards.
+
+---
+
+## ✅ Summary
+
+This project demonstrates capability in:
+- Healthcare data analysis and clinical KPI interpretation  
+- OCAP-aligned use of public health datasets  
+- ED performance and throughput analytics  
+- IBCS-disciplined dashboard design  
+- Visualizing clinical drivers behind ED utilization  
+- Building polished, recruiter-ready BI portfolio artifacts  
+
+This transforms complex ED data into an executive-quality analytics solution suitable for real healthcare organizations.
