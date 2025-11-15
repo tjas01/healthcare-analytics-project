@@ -32,7 +32,6 @@ The project converts raw ED summaries into actionable, visually consistent insig
 ---
 
 ## 🧠 Skills Demonstrated  
-*(Aligned with Fraser Health Data Analyst expectations)*
 
 ### Health Data Literacy
 - Understanding ED concepts: **CTAS categories**, **Admitted vs Discharged**, **LOS P50/P90**, **age-group classifications**, **monthly volume structures**
@@ -95,19 +94,6 @@ Monthly visit distributions:
 - `DimProvince` — Province metadata  
 
 ---
-
-## 🗺️ Data Model View
-
-```mermaid
-flowchart LR
-  DimDate --> fact_ed_visits_monthly
-  DimProvince --> fact_ed_visits_monthly
-  DimProvince --> ed_province_annual_summary
-
-  subgraph ClinicalProblems
-    ed_top10_problems
-  end
-ed_top10_problems intentionally remains disconnected (summary-level table) and is used only for Page 2’s clinical insights.
 
 ## 📊 Report Pages
 
